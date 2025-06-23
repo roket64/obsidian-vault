@@ -94,6 +94,7 @@
 
 <details>
 <summary>활성화되는 옵션</summary>
+
 ```
 -falign-functions  -falign-jumps
 -falign-labels  -falign-loops
@@ -141,6 +142,7 @@
 
 <details>
 <summary>활성화되는 옵션</summary>
+
 -fgcse-after-reload
 -fipa-cp-clone
 -floop-interchange
@@ -173,6 +175,7 @@
 
 <details>
 <summary>활성화되는 옵션</summary>
+
 ```
 -Waddress
 -Waligned-new (C++, Objective-C++ 한정)
@@ -264,6 +267,7 @@
 
 <details>
 <summary>활성화되는 옵션</summary>
+
 ```
 -Wabsolute-value (C, Objective-C 한정)
 -Walloc-size
