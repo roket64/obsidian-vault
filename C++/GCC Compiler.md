@@ -38,6 +38,7 @@
 
 <details>
 <summary>활성화되는 옵션</summary>
+
 ```
 -fauto-inc-dec
 -fbranch-count-reg
@@ -143,6 +144,7 @@
 <details>
 <summary>활성화되는 옵션</summary>
 
+```
 -fgcse-after-reload
 -fipa-cp-clone
 -floop-interchange
@@ -156,6 +158,7 @@
 -funswitch-loops
 -fvect-cost-model=dynamic
 -fversion-loops-for-strides
+```
 </details>
 
 - `-Os`: 바이너리 크기를 최적화합니다. `-O2`에 의해 활성화되는 옵션을 다음을 제외하고 적용합니다.
