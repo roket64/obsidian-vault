@@ -1,5 +1,5 @@
 ### 컴파일 옵션
-### 1. 방언(Dialect)
+#### 1. 방언(Dialect)
 
 다음 옵션들을 통해 C-Family 언어(C++, Objective-C, Objective-C++)의 방언을 제어할 수 있습니다.
 
