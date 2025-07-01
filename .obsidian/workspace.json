@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9fe20e0176031307",
+        "id": "9184013cc6ec9e93",
         "type": "tabs",
         "children": [
           {
-            "id": "40d5548afed0b314",
+            "id": "fca535b756ffb8b5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "create a link.md",
+                "file": "Linux/Using fcitx5 on KDE Plasma.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "create a link 의 백링크"
+              "title": "Using fcitx5 on KDE Plasma 의 백링크"
             }
           },
           {
@@ -142,21 +142,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "create a link.md",
+                "file": "C++/GCC Compiler.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "create a link 의 개요"
+              "title": "GCC Compiler 의 개요"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,8 +168,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "40d5548afed0b314",
+  "active": "fca535b756ffb8b5",
   "lastOpenFiles": [
+    "Linux/Using fcitx5 on KDE Plasma.md",
     "Linux/Arch Linux.md",
     "C++/GCC Compiler.md",
     "C++",
