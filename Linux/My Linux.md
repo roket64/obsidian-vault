@@ -165,7 +165,7 @@ sudo pacman -S hyprland
 #### desktop apps
 
 ```bash
-sudo pacman -S kitty dolphin wl-clipboard mako pipewire wireplumber qt5-wayland qt6-wayland firefox
+sudo pacman -S kitty dolphin wofi wl-clipboard mako pipewire wireplumber qt5-wayland qt6-wayland firefox
 ```
 #### hyprland utils
 
