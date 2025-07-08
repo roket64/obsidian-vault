@@ -141,7 +141,8 @@ systemctl enable networkmanager
 grub-install /dev/efi_system_partition
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
-## 
+
+## unmount
 
 ```
 umount -a && reboot
@@ -167,29 +168,43 @@ sudo pacman -S hyprland
 ```bash
 sudo pacman -S kitty dolphin wofi wl-clipboard mako pipewire wireplumber qt5-wayland qt6-wayland firefox
 ```
-#### hyprland utils
-
-```bash
-sudo pacman -S hyprcursor hyprgraphics hyprland-qt-support hyprland-qtutils hyprlang hyprlock hyprpaper hyprshot hyprutils hyprwayland-scanner xdg-desktop-portal-hyprland
-```
-### fonts
-
-```bash
-sudo pacman -S noto-fonts-cjk ttf-nerd-fonts-symbols-common ttf-nerd-fonts-symbols-mono ttf-nerd-fonts-symbols
-```
-### networkmanager
-
-```bash
-sudo pacman -S network-manager-applet nm-connection-editor
-```
 
 ```bash
 nmcli device wifi list
 nmcli device wifi connect [network] password [password]
 ```
-### fcitx5
+# Packages
 
-```bash
-sudo pacman -S fcitx5-im fcitx5-hangul
-```
-
+- sddm: display manager
+- *networkmanager*: network management utility
+- nm-connection-editor: gui for networkmanager
+- *pipewire*, *wireplumber*: multi-media framework
+- *hyprland*: window manager
+- *hyprlock*: lockscreen utility for hyprland
+- *hyprshot*: screenshot utility for hyprland
+- *hyprpaper*: wallpaper utility for hyprland
+- *xdg-desktop-portal-hyprland*: xdg desktop portal backend for hyprland
+- *waybar*: taskbar
+- zsh: shell
+- *kitty*: terminal emulator
+- *dolphin*: file manager
+- *mako*: notification manager
+- *wl-clipboard*: clipboard utility
+- *rofi*: application launcher
+- *tlp*, *tlpui*: power manager and its gui
+- *fcitx5-im*, *fcitx5-hangul*: input method framework
+- *base-devel*: build utilites 
+- *cmake*: make for c
+- *ninja*: cmake generator
+- *dotnet-sdk*: c# library
+- *jre-openjdk*: java runtime
+- *firefox*: internet browser
+- *ark*: compression utility
+- *gwenview*: image viewer
+- *krita*: image editor
+- *okular*: pdf viewer
+- *mpv*: media player
+- *libreoffice*: office utility 
+- *noto-fonts-cjk*: korean font
+- *ttf-nerd-fonts-symbols*: symbol font
+- *bibata cursor*:  cursor
