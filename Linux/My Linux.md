@@ -171,21 +171,25 @@ sudo pacman -S kitty dolphin wofi wl-clipboard mako pipewire wireplumber qt5-way
 
 ```bash
 nmcli device wifi list
-nmcli device wifi connect [network] password [password]
+nmcli device wifi cocompression utilitynnect [network] password [password]
 ```
 # Packages
+
+## core 
 
 - sddm: display manager
 - *networkmanager*: network management utility
 - nm-connection-editor: gui for networkmanager
 - *pipewire*, *wireplumber*: multi-media framework
+- *pavucontrol*: gui for pulseaudio
 - *hyprland*: window manager
 - *hyprlock*: lockscreen utility for hyprland
 - *hyprshot*: screenshot utility for hyprland
 - *hyprpaper*: wallpaper utility for hyprland
-- *xdg-desktop-portal-hyprland*: xdg desktop portal backend for hyprland
+- *xdg-desktop-portal-hyprland*: application backend for hyprland
 - *waybar*: taskbar
-- zsh: shell
+- *zsh*: shell
+- *oh-my-zsh*: zsh plugin
 - *kitty*: terminal emulator
 - *dolphin*: file manager
 - *mako*: notification manager
@@ -193,11 +197,19 @@ nmcli device wifi connect [network] password [password]
 - *rofi*: application launcher
 - *tlp*, *tlpui*: power manager and its gui
 - *fcitx5-im*, *fcitx5-hangul*: input method framework
+- *noto-fonts-cjk*: korean font
+- *ttf-nerd-fonts-symbols*: symbol font
+
+## dev
+
 - *base-devel*: build utilites 
 - *cmake*: make for c
 - *ninja*: cmake generator
 - *dotnet-sdk*: c# library
 - *jre-openjdk*: java runtime
+
+## utiltiy
+
 - *firefox*: internet browser
 - *ark*: compression utility
 - *gwenview*: image viewer
@@ -205,6 +217,8 @@ nmcli device wifi connect [network] password [password]
 - *okular*: pdf viewer
 - *mpv*: media player
 - *libreoffice*: office utility 
-- *noto-fonts-cjk*: korean font
-- *ttf-nerd-fonts-symbols*: symbol font
+- *zip*, *unzip*: zip compressor
+
+## misc
+
 - *bibata cursor*:  cursor
